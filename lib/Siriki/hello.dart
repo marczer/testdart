@@ -5,8 +5,10 @@ class name extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text("Hello moi je teste"),
+    return Scaffold(
+      body: Container(
+        child: Text("Hello moi je teste"),
+      ),
     );
   }
 }
